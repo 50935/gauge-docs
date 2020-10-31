@@ -1,7 +1,7 @@
 # Monte Carlo Simulation  of SU(N) Gauge Field in 2D}
 
-\section{System Configuration}
-Consider a $L_1 \times L_2$ periodic  lattice where one dimension is time and another dimension is space. On that lattice space, we are going to study a guage invariant nonabelian gauge theory. There are $(2L_1L_2)$  no of $SU(N)$  link variables which are denoted by
+## System Configuration
+Consider a \\(L_1 \times L_2 \\) periodic  lattice where one dimension is time and another dimension is space. On that lattice space, we are going to study a guage invariant nonabelian gauge theory. There are $(2L_1L_2)$  no of $SU(N)$  link variables which are denoted by
 \be 
  U_{\mu}(n_1,n_2); \hspace{0.5 cm} 0 \leq n_1 < L_1; 0 \leq n_2 < L_2,\mu = 1,2.
 \ee
