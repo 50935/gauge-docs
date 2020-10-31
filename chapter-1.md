@@ -1,4 +1,4 @@
-# Monte Carlo Simulation  of SU(N) Gauge Field in 2D}
+# Monte Carlo Simulation  of SU(N) Gauge Field in 2D
 
 ## System Configuration
 Consider a \\(L_1 \times L_2 \\) periodic  lattice where one dimension is time and another dimension is space. On that lattice space, we are going to study a guage invariant nonabelian gauge theory. There are $(2L_1L_2)$  no of $SU(N)$  link variables which are denoted by
@@ -32,7 +32,10 @@ Wilson action is given by
 \bea
 S = \beta\sum_{p} Tr(U_p + U_{p}^{\dagger})
 \eea
-\section{Strategy to Update Links}
+
+
+
+## Strategy to Update Links
 The Plaquette variables $U_p(n_1,n_2)$ and $U_p(n_1 -1,n_2)$ before a link $U(n_1,n_2)$ is updated are given by
 \bea
 U_{p}(n_1-1,n_2) = U^{1}(n_1-1,n_2)U^{2}(n_1,n_2)U^{1\dagger}(n_1-1,n_2+1)U^{2\dagger}(n_1-1,n_2)\cr
@@ -243,7 +246,8 @@ Hence;
 \bea
 \boxed{S_{new} = \beta K Tr(V^{'}Z^{\dagger})+ ....}
 \eea
-\subsection*{Geting Updated Link}
+
+## Geting Updated Link
 
 The main idea is to generate $V$ which is a SU(N) matricx. For this we need to know $V^{'}$ which is SU(2) matrix.
 We know new action is
